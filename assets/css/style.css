@@ -1,13 +1,7 @@
-html {
-  height: 100%;
-}
-
 body {
   background-image: url("../images/zwartevilt_brown.png");
   color: #ffffff;
   font-family: 'Open Sans', Arial, sans-serif;
-  min-height: 100%;
-  position: relative;
 }
 
 h1, h2, h3, h4, h5, .navbar-brand, li a {
@@ -74,17 +68,13 @@ h1, h2, h3, h4, h5, .navbar-brand, li a {
 }
 
 .card-img {
-  /* max-width: 478px;
-  max-height: 270px; */
   max-width: 400px;
   max-height: 240px;
 }
 
 .card {
-  /* max-width: 478px;
-  max-height: 270px; */
-  max-width: 390px;
-  max-height: 200px;
+  max-width: 400px;
+  max-height: 240px;
   margin: 0 auto;
   background: transparent;
 }
@@ -125,10 +115,6 @@ h1, h2, h3, h4, h5, .navbar-brand, li a {
 .footer-pane {
   background: #211510;
   background-image: url(../images/zwartevilt_dkbrown.png);
-  /* position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0; */
 }
 
 .pane-content {
