@@ -79,4 +79,37 @@ body {
 .divider {
   height: 5px;
   background: #46332a;
+  margin-top: 40px;
+}
+
+.footer-social {
+  background-image: url(../images/zwartevilt_brown_highlight.png);
+  padding: 10px;
+  margin-top: 40px;
+  text-align: center;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.08);
+}
+
+.footer-social a {
+  padding: 5px;
+  opacity: 0.7;
+}
+
+.footer-social a:hover {
+  opacity: 1;
+}
+
+.footer-pane {
+  background: #211510;
+  background-image: url(../images/zwartevilt_dkbrown.png);
+}
+
+.pane-content {
+  position: relative;
+  max-width: 1600px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 40px 0 15px 0;
 }
