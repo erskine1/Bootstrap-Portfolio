@@ -1,3 +1,9 @@
+body {
+  background-image: url("../images/zwartevilt_brown.png");
+  color: #ffffff;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
 .navbar, .navbar-expand-lg, .navbar-light, .bg-light {
   background-image: url(../images/zwartevilt_lbrown.png);
 }
@@ -39,12 +45,38 @@
 
 .masthead {
   background-image: url("../images/masthead.jpg");
+  backgorund-
   background-repeat: no-repeat;
   background-position: center;
+  background
 }
 
-body {
+.card-img-overlay {
+  padding: 0;
+}
+
+.card-img {
+  max-width: 478px;
+  max-height: 270px;
+}
+
+.card {
+  max-width: 478px;
+  max-height: 270px;
+  margin: 0 auto;
+}
+
+
+.card-title {
+  position: absolute;
+  bottom: 6px;
+  padding: 10px;
+  background: #56260c;
+  opacity: 0.9;
+  width: 100%;
+}
+
+.divider {
+  height: 5px;
   background: #46332a;
-  color: #ffffff;
-  font-family: 'Open Sans', Arial, sans-serif;
 }
