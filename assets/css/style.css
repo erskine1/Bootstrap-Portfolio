@@ -4,8 +4,9 @@ body {
   font-family: 'Open Sans', Arial, sans-serif;
 }
 
-h1, h2, h3, .navbar-brand, li a {
+h1, h2, h3, h4, h5, .navbar-brand, li a {
   font-variant: small-caps;
+  color: #fff;
 }
 
 .navbar-brand, li a {
@@ -56,11 +57,10 @@ h1, h2, h3, .navbar-brand, li a {
 }
 
 .masthead {
+  background: transparent;
   background-image: url("../images/masthead.jpg");
-  backgorund-
   background-repeat: no-repeat;
   background-position: center;
-  background
 }
 
 .card-img-overlay {
@@ -68,14 +68,19 @@ h1, h2, h3, .navbar-brand, li a {
 }
 
 .card-img {
-  max-width: 478px;
-  max-height: 270px;
+  /* max-width: 478px;
+  max-height: 270px; */
+  max-width: 400px;
+  max-height: 240px;
 }
 
 .card {
-  max-width: 478px;
-  max-height: 270px;
+  /* max-width: 478px;
+  max-height: 270px; */
+  max-width: 390px;
+  max-height: 200px;
   margin: 0 auto;
+  background: transparent;
 }
 
 
@@ -124,4 +129,52 @@ h1, h2, h3, .navbar-brand, li a {
   color: #fff;
   text-transform: uppercase;
   padding: 40px 0 15px 0;
+}
+
+a h5:hover {
+  color: #c8a52c;
+}
+
+.form-group {
+  margin: 0 auto;
+}
+
+input[type=text], select, textarea, .form-control {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: 'Open Sans', Arial, sans-serif;
+  background: #46332a;
+  color: #ffffff; 
+}
+
+.form-control:focus, textarea:focus {
+  outline: none;
+  border: 1px solid #c8a52c;
+  background: #46332a;
+  color: #ffffff; 
+}
+
+textarea {
+  height: 200px;
+}
+
+.btn {
+  background: transparent;
+  color: #ffffff;
+  padding: 5px 24px;
+  border: 1px solid #c8a52c;
+  font-variant: small-caps;
+  font-family: 'Open Sans', Arial, sans-serif;
+  margin-left: 20px;
+}
+
+.btn:hover {
+  background: #56260c;
+  color: #c8a52c;
+  transition: all .2s ease-in-out;
 }
